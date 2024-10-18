@@ -49,8 +49,8 @@ void loop() {
 
   // Send data to the receiver
   // Example: 1024,256,1,0
-  BTSerial.print(String(xValue) + "," + String(yValue) + "," + String(buttonState) + "," + String(prog) + "\n");
-  Serial.print(String(xValue) + "," + String(yValue) + "," + String(buttonState) + "," + String(prog) + "\n");
+  BTSerial.print(String(xValue) + "," + String(yValue) + "," + String(buttonState) + "," + String(0) + "\n");
+  Serial.print(String(xValue) + "," + String(yValue) + "," + String(buttonState) + "," + String(0) + "\n");
 
   // Wait few milliseconds
   delay(100); 
